@@ -2,6 +2,19 @@
 import 'dart:math';
 
 void main() {
+  Random random = Random();
+
+  // Example 1: Generate a random integer between 0 and 99
+  print('Random Integer: ${random.nextInt(100)}');
+
+  // Example 2: Generate a random boolean value
+  print('Random Boolean: ${random.nextBool()}');
+
+  // Example 3: Generate a random double between 0.0 and 1.0
+  print('Random Double: ${random.nextDouble()}');
+
+  print("---------------");
+
   // Example 1: Finding the minimum of two numbers
   print(min(10, 20)); // Output: 10
 
