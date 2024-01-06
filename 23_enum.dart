@@ -6,7 +6,7 @@ enum Color {
 }
 
 // Example 2: Enumeration with Associated Values
-enum Status<Map> {
+enum Status {
   success,
   failure,
   inProgress,
