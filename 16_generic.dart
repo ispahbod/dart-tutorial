@@ -1,6 +1,6 @@
 // Generic class 'Box' with type parameter 'T'
 class Box<T> {
-  // Late initialization for the content of type 'T'
+  // Late initialization for the content.txt of type 'T'
   late T _content;
 
   // Method to put an item of type 'T' into the box
